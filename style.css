@@ -1,1 +1,17 @@
 
+body{
+    backround-color:#90C1F0;
+    color:#FFDEFA
+}
+header{
+    backround-color: bisque;
+    color:rgb(245, 175, 245)
+}
+section{
+    background-color: blue;
+    color:aquamarine
+}
+footer{
+    backroud-color: gray
+    color: pink
+}

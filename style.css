@@ -1,17 +1,25 @@
-
 body{
     backround-color:#90C1F0;
     color:#FFDEFA
+    font-family: Arial, sans-serif;
 }
+
 header{
     backround-color: bisque;
     color:rgb(245, 175, 245)
+    text-aling: center;
+    padding: 30px;
 }
-section{
-    background-color: blue;
-    color:aquamarine
+
+h1 {
+    font-size: 36px;
 }
-footer{
-    backround-color:rgb(184, 173, 173);
-    color:pink
+
+h2 {
+    color:rgb(108, 177, 236);
+}
+
+p {
+   font-size: 18px;
+   line-height: 1.6;
 }

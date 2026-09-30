@@ -1,11 +1,25 @@
-body{
-    backround-color:#90C1F0;
-    color:#FFDEFA
+:root{
+    --cor-fundo:#90C1F0;     
+    --cor-texto:#FFDEFA;
+    --cor-principal:bisque;
+    --cor-secundaria:;
+    --cor-card:;
+    --cor-superficie:;
+    --cor-rodape:;
+    --cor-clara:;
+    
+}
+
+body {
+
+    backround-color; var(--cor-fundo);
+    color: var(--cor-texto)
     font-family: Arial, sans-serif;
+    margin:0;
 }
 
 header{
-    backround-color: bisque;
+    backround-color: var(--cor-principal);
     color:rgb(245, 175, 245)
     text-aling: center;
     padding: 30px;

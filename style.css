@@ -1,39 +1,121 @@
-:root{
-    --cor-fundo:#90C1F0;     
-    --cor-texto:#FFDEFA;
-    --cor-principal:bisque;
-    --cor-secundaria:;
-    --cor-card:;
-    --cor-superficie:;
-    --cor-rodape:;
-    --cor-clara:;
-    
+
+/*
+:root{--cor-fundo:rgb(226, 43, 195);
+--cor-texto:rgb(63, 20, 220);
+--cor-principal: rgb(121, 100, 237);
+--cor-secundaria: #9aa9fd;
+--cor-card:;
+--cor-superficial: white;
+--cor-rodape:;
+--cor-clara:#556bc3;
+--cor-legendada:;
+
 }
+*/
 
-body {
 
-    backround-color; var(--cor-fundo);
-    color: var(--cor-texto)
-    font-family: Arial, sans-serif;
-    margin:0;
+body{
+background-color: #b8c3f5;
+color: #060F33;
+font-family: Arial, sans-serif;
+margin: 0;
 }
-
 header{
-    backround-color: var(--cor-principal);
-    color:rgb(245, 175, 245)
-    text-aling: center;
-    padding: 30px;
+background-color: #9cadf1;
+color: #0D1C54;
+text-align: center;
+padding: 30px;
 }
-
 h1 {
-    font-size: 36px;
+font-size: 36px;
 }
-
 h2 {
-    color:rgb(108, 177, 236);
+color:#b0bffc;
+}
+p {
+font-size: 18px;
+line-height: 1.6;
 }
 
-p {
-   font-size: 18px;
-   line-height: 1.6;
+nav{
+margin-top: 20px;
+}
+nav a {
+color: rgb(106, 145, 255);
+text-decoration: none;
+background-color: #556bc3;
+padding: 10px 15px;
+border-radius: 8px;
+margin: 5px;
+display: inline-block
+}
+nav a:hover{
+background-color: #9aa9fd;
+}
+main{
+width: 80%;
+margin: auto;
+}
+section{
+background-color: white;
+margin: 20px;
+padding: 20px;
+border-radius: 12px;
+}
+img{
+width: 100%;
+max-width: 600px;
+display: block;
+margin: auto;
+border-radius: 12px;
+}
+figcaption{
+text-align: center;
+font-family: 14px;
+color: #000000;
+margin-top: 8px;
+}
+card{
+background-color: #475575f8;
+padding: 15px;
+margin: 15px 0;
+border-left: 6px solid #c6cefa;
+border-radius: 10px;
+}
+card h3 {
+margin-top: 0;
+}
+footer {
+background-color: #222222;
+color: rgb(212, 206, 250);
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+}
+button{
+background-color: #9cadf1;
+color: #0D1C54;
+border: #b0bffc;
+padding: 10px 15px;
+border-radius: 8px;
+cursor: pointer;
+}
+button:hover{
+background-color: #556bc3;
+}
+.curtir{
+display: block;
+width: fit-content;
+margin: 20xp auto;
+}
+.galeria{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+}
+.card-curiosidades{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
 }

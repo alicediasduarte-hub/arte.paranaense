@@ -75,12 +75,13 @@ font-family: 14px;
 color: #000000;
 margin-top: 8px;
 }
-card{
+.card{
 background-color: #475575f8;
 padding: 15px;
 margin: 15px 0;
 border-left: 6px solid #c6cefa;
 border-radius: 10px;
+flex: 1 1 300px;
 }
 card h3 {
 margin-top: 0;
